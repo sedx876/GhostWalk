@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import '../styles/Navbar.css'
+import cameo from '../assets/cameo.png'
 
 const Navbar = () => {
 
@@ -10,9 +11,9 @@ const Navbar = () => {
       className="nav-link" 
       exact activeClassName="active" 
       to='/home'>
-      <img className='theD3' />Ghost Walk</NavLink>
+      <img className='cameo' src={cameo} />Ghost Walk</NavLink>
 
-    <button className="navbar-toggler" 
+    {/* <button className="navbar-toggler" 
             type="button" 
             data-toggle="collapse" 
             data-target="#navbarColor01" 
@@ -20,7 +21,7 @@ const Navbar = () => {
             aria-expanded="false" 
             aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
-    </button>
+    </button> */}
 
   <div className="collapse navbar-collapse" id="navbarColor01">
     <ul className="navbar-nav mr-auto">

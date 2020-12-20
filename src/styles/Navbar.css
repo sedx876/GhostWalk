@@ -1,9 +1,38 @@
 .navbar{
   color: crimson;
   font-size: 15px;
+  position: relative;
 }
 
 #root > div > nav > a{
   color: crimson;
   font-size: 20px;
+  
 }
+
+.cameo{
+  width: 25px;
+  height: 40px;
+  position: relative;
+}
+
+.gothDoor{
+  width: 500px;
+  height: 700px;
+  position: relative;
+}
+
+.name{
+  margin: 20px;
+  padding: 30px;
+  position: relative;
+}
+
+/* .nav-link{
+  position: sticky;
+} */
+
+/* .navbar-toggler{
+  position:sticky;
+  overflow: hidden;
+} */
