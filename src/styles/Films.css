@@ -1,0 +1,67 @@
+.ET{
+  width:400px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+  margin:10px;
+  justify-content: center;
+}
+
+.ER{
+  width:400px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+  margin:10px;
+  justify-content: center;
+}
+
+.LC{
+  width:400px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+  margin:10px;
+  justify-content: center;
+}
+
+.TF{
+  width:400px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+  margin:10px;
+  justify-content: center;
+}
+
+.TL{
+  width:400px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 0px;
+  justify-content: center;
+}
+
+.card-text{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* margin: 75px; */
+  padding: 20px;
+}
+
+.linebreak{
+  width: 700px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h2{
+  text-decoration: underline;
+}

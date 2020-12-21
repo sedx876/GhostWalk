@@ -6,21 +6,22 @@ import LC from '../assets/LC.webp'
 import TF from '../assets/TF.webp'
 import TL from '../assets/TL.webp'
 
+
 const Films = () => {
 
   return (
     <>
       <h2>Films</h2>
-      <div class="card border-secondary mb-3">
-        <div class="card-header">Maggie Shaye's Embrace the Twilight</div>
-        <div class="card-body">
-          <h5 class="card-title">Director: Carlos Dunn</h5>
-          <h5 class="card-title">Screenwriter: Carlos Dunn</h5>
-          <h5 class="card-title">Genre: Drama/Action/Horror</h5>
+      <div>
+        <h3>Maggie Shaye's Embrace the Twilight</h3>
+        <div>
+          <h5>Director: Carlos Dunn</h5>
+          <h5>Screenwriter: Carlos Dunn</h5>
+          <h5>Genre: Drama/Action/Horror</h5>
             <img className="ET" 
             alt="ET" 
             src={ET}/>
-            <p class="card-text">IA film based on New York Times 
+            <p className="card-text">IA film based on New York Times 
             bestselling author Maggie Shayne's "Embrace the 
             Twilight." Experience has taught Sarafina that love 
             leads only to betrayal and heartbreak. She has vowed to 
@@ -37,16 +38,20 @@ const Films = () => {
       </div>
       </div>
 
-      <div class="card border-secondary mb-3">
-        <div class="card-header">Estella's Revenge</div>
-        <div class="card-body">
-          <h5 class="card-title">Directors: Carlos Dunn/Steve Olander</h5>
-          <h5 class="card-title">Screenwriter: Rocky Karlage</h5>
-          <h5 class="card-title">Genre: Thriller/Horror/Mystery/Drama</h5>
+      {/* <div className='linebreak'><img src={LineBreak}/></div> */}
+
+      <br/><br/>
+
+      <div>
+        <h3>Estella's Revenge</h3>
+        <div>
+          <h5>Directors: Carlos Dunn/Steve Olander</h5>
+          <h5>Screenwriter: Rocky Karlage</h5>
+          <h5>Genre: Thriller/Horror/Mystery/Drama</h5>
             <img className="ER" 
             alt="ER" 
             src={ER}/>
-            <p class="card-text">Sequel to the award winning film 
+            <p className="card-text">Sequel to the award winning film 
             "The Farm" - second in the trilogy series. From The 
             Farm to "Estella's Revenge" and ending in "The End Was 
             Then", the horrors unleashed by the Dawsons take their 
@@ -54,34 +59,34 @@ const Films = () => {
             Ohio. The Modern Trilogy of The Ghost Walk Saga.</p>
       </div>
       </div>
-
-      <div class="card border-secondary mb-3">
-        <div class="card-header">Lilly's Cry</div>
-        <div class="card-body">
-          <h5 class="card-title">Directors: Rocky Karlage</h5>
-          <h5 class="card-title">Screenwriter: Rocky Karlage</h5>
-          <h5 class="card-title">Genre: Paranormal Docudrama</h5>
+        <br/><br/>
+       <div>
+        <h3>Lilly's Cry</h3>
+        <div>
+          <h5>Directors: Rocky Karlage</h5>
+          <h5>Screenwriter: Rocky Karlage</h5>
+          <h5>Genre: Paranormal Docudrama</h5>
             <img className="LC" 
             alt="LC" 
             src={LC}/>
-            <p class="card-text">Ghost Walk Studios presents 
+            <p className="card-text">Ghost Walk Studios presents 
             "Lilly's Cry"; a paranormal docudrama about a spirit 
             girl's journey. Please note the original "documentary" 
             concept is being revised to a more precise story-telling 
             film to reflect Lilly Rose life.</p>
       </div>
       </div>
-
-      <div class="card border-secondary mb-3">
-        <div class="card-header">The Farm</div>
-        <div class="card-body">
-          <h5 class="card-title">Directors: Steve Olander</h5>
-          <h5 class="card-title">Screenwriter: Rocky Karlage</h5>
-          <h5 class="card-title">Genre: Paranormal Horror</h5>
+        <br/><br/>
+      <div>
+        <h3>The Farm</h3>
+        <div>
+          <h5>Directors: Steve Olander</h5>
+          <h5>Screenwriter: Rocky Karlage</h5>
+          <h5>Genre: Paranormal Horror</h5>
             <img className="TF" 
             alt="TF" 
             src={TF}/>
-            <p class="card-text">Based on a true paranormal story 
+            <p className="card-text">Based on a true paranormal story 
             of horror! Newlyweds Johnny and Estella Harper are 
             gifted a home to stay for their honeymoon. It's a 
             wonderful time for the young couple until nature and 
@@ -102,26 +107,26 @@ const Films = () => {
             Feature Film"</p>
       </div>
       </div>
-
-      <div class="card border-secondary mb-3">
-        <div class="card-header">Temptation Lane</div>
-        <div class="card-body">
-          <h5 class="card-title">Directors: Malik Ali</h5>
-          <h5 class="card-title">Screenwriter: Malik Ali</h5>
-          <h5 class="card-title">Produced by: Angry Cupcake Productions
+        <br/><br/>
+      <div>
+        <h3>Temptation Lane</h3>
+        <div>
+          <h5>Directors: Malik Ali</h5>
+          <h5>Screenwriter: Malik Ali</h5>
+          <h5>Produced by: Angry Cupcake Productions
           and Ghost Walk Studios</h5>
-          <h5 class="card-title">Genre: Drama</h5>
+          <h5>Genre: Drama</h5>
             <img className="TL" 
             alt="TL" 
             src={TL}/>
-            <p class="card-text">Temptation Lane” is a film about 
+            <p className="card-text">Temptation Lane is a film about 
             Larry who is two years sober and must deal with the 
             reality that his son is homosexual. Which causes the 
             Larry to spiral out of control and battle his past 
             demons as well while trying to accept his son’s 
             lifestyle.</p>
       </div>
-      </div>
+      </div> 
     </>
   )
 }
