@@ -1,89 +1,125 @@
+h2{
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+}
+
 .TheKiss{
   height: 400px;
   width: 300px;
   margin: 5px;
   padding: 10px;
+  position:relative;
 }
 
 .TwilightBTS{
   height: 300px;
   width: 300px;
+  margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Soldier{
   height: 300px;
   width: 300px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Gypsy{
   height: 300px;
   width: 300px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Dance{
   height: 300px;
   width: 400px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Jail{
   height: 300px;
   width: 400px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Burn{
   height: 400px;
   width: 300px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Friends{
   height: 300px;
   width: 400px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Edit{
   height: 300px;
   width: 300px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .cBall{
   height: 300px;
   width: 400px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Bridge{
   height: 400px;
   width: 300px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Shocked{
   height: 300px;
   width: 400px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Gold{
   height: 300px;
   width: 400px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Guns{
   height: 300px;
   width: 400px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }
 
 .Howl{
   height: 400px;
   width: 300px;
   margin: 5px;
+  padding: 10px;
+  position: relative;
 }

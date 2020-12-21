@@ -79,8 +79,7 @@ const BehindTheScenes = () => {
 
         <img className="Howl" 
         alt="Howl" 
-        src={Howl}/>
-      
+        src={Howl}/> 
     </>
   )
 }

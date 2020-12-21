@@ -14,9 +14,15 @@
   padding: 50px;
 } */
 
+h1{
+  padding: 30px;
+  margin: 30px;
+  text-decoration: underline;
+}
+
 h4{
-  padding: 20px;
-  margin: 20px;
+  padding: 5px;
+  margin: 5px;
   text-decoration: underline;
 }
 
