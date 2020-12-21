@@ -5,11 +5,11 @@ const About = () => {
 
   return (
     <>
-    <div class="card bg-light mb-3">
-    <div class="card-header">Ghost Walk Studios</div>
-    <div class="card-body">
-    <h4 class="card-title">A Movie, Video & Media Production Company</h4>
-    <p class="card-text">"Where Myth Meets Reality" - Filmmakers with 
+    <div >
+    <h1>Ghost Walk Studios</h1>
+    <div>
+    <h4>A Movie, Video & Media Production Company</h4>
+    <p>"Where Myth Meets Reality" - Filmmakers with 
         an award-winning best film "Ghost Walk: The 
         Farm" produced and distributed with followup 
         film "Estella's Revenge" in final edit. 

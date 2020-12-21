@@ -1,4 +1,4 @@
-.card-header{
+/* .card-header{
   font-size: 40px;
 }
 
@@ -8,4 +8,20 @@
 
 .card-text{
   font-size: 20px;
+}
+
+.card{
+  padding: 50px;
+} */
+
+h4{
+  padding: 20px;
+  margin: 20px;
+  text-decoration: underline;
+}
+
+p{
+  padding: 20px;
+  margin: 20px;
+  font-weight: 200;
 }

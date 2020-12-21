@@ -6,7 +6,6 @@ import cameo from '../assets/cameo.png'
 const Navbar = () => {
 
   return(
- 
 
 <div class="navbar">
   <NavLink className="logo" exact 
