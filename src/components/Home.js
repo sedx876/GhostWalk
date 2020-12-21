@@ -12,7 +12,7 @@ const Home = () => {
 <div className="twinkling"></div>
 <div className="clouds"></div>
 <div className="name">
-  <span id="L">G</span>
+  {/* <span id="L">G</span>
   <span id="I">H</span>
   <span id="G">O</span>
   <span id="H">S</span>
@@ -21,11 +21,14 @@ const Home = () => {
   <span id="H">W</span>
   <span id="G">A</span>
   <span id="H">L</span>
-  <span id="T">K</span>
+  <span id="T">K</span> */}
   </div>
   <br />
   <br />
-  <div className="img-container"><img className="gothDoor" alt="gothDoor" src={gothDoor}/></div>
+  <h2>Welcome</h2>
+  <h3>to</h3>
+  <h1>Ghost Walk</h1>
+  {/* <div className="img-container"><img className="gothDoor" alt="gothDoor" src={gothDoor}/></div> */}
 </div>
 </div>
 </div>

@@ -4,7 +4,7 @@
 .background-container {
   margin: 0;
   /* font-family: Montserrat; */
-  font-family: 'Special Elite', cursive;
+  /* font-family: 'Special Elite', cursive; */
   font-size: 40px;
   color: var(--white);
   letter-spacing: 0.7em;
@@ -286,7 +286,8 @@ div > span {
   }
   
   .stars {
-   background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+   /* background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat; */
+   background: transparent url("../assets/stars.png") repeat;
    position: absolute;
       top: 0;
       bottom: 0;
@@ -299,7 +300,8 @@ div > span {
   .twinkling{
       width:10000px;
       height: 100%;
-      background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+      /* background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat; */
+      background: transparent url("../assets/twinkling.png") repeat;
       background-size: 1000px 1000px;
       position: absolute;
       right: 0;
@@ -318,7 +320,8 @@ div > span {
   .clouds{
       width:10000px;
       height: 100%;
-      background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+      /* background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat; */
+      background: transparent url("../assets/clouds_repeat.png") repeat;
       background-size: 1000px 1000px;
       position: absolute;
       right: 0;
@@ -338,4 +341,8 @@ div > span {
     position: absolute;
     z-index: 3;
     right: 20px;
+  }
+
+  .name{
+    padding: 50px;
   }
