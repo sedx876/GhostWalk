@@ -9,6 +9,9 @@ import News from './components/News'
 import BehindTheScenes from './components/BehindTheScenes'
 import Development from './components/Development'
 import Films from './components/Films'
+import Contact from './components/Contact'
+import More from './components/More'
+import Press from './components/Press'
 
 
 
@@ -20,6 +23,9 @@ function App() {
         <Route exact path='/' component={Home}/>
         <Route exact path='/about' component={About}/>
         <Route exact path='/bts' component={BehindTheScenes}/>
+        <Route exact path='/press' component={Press}/>
+        <Route exact path='/contact' component={Contact}/>
+        <Route exact path='/more' component={More}/>
         <Route exact path='/news' component={News}/>
         <Route exact path='/development' component={Development}/>
         <Route exact path='/films' component={Films}/>

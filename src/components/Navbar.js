@@ -33,7 +33,13 @@ const Navbar = () => {
     </NavLink>
   </li>
 
-  <li><a href="#portfolio">Press</a></li>
+  <li>
+    <NavLink className='press' 
+    exact activeClassName='active' 
+    to='/press'>
+      Press
+    </NavLink>
+  </li>
 
   <li>
     <NavLink className='films' 
@@ -74,7 +80,7 @@ const Navbar = () => {
       Contact
     </NavLink>
   </li>
-  
+
 </ul>
 </div>
   )
