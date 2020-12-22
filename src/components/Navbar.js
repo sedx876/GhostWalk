@@ -2,6 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import '../styles/Navbar.css'
 import cameo from '../assets/cameo.png'
+import redmoon from '../assets/redmoon.png'
+import kredmoon from '../assets/kredmoon.png'
 
 const Navbar = () => {
 
@@ -20,7 +22,7 @@ const Navbar = () => {
     <NavLink className='about' 
     exact activeClassName='active' 
     to='/about'>
-      About
+      <img className='redmoon' src={kredmoon} alt='redmoon'/>About
     </NavLink>
   </li>
 
@@ -28,7 +30,7 @@ const Navbar = () => {
     <NavLink className='bts'
     exact activeClassName='active'
     to='/bts'>
-      Behind the Scenes
+      <img className='redmoon' src={kredmoon} alt='redmoon'/>Behind the Scenes
     </NavLink>
   </li>
 
@@ -36,7 +38,7 @@ const Navbar = () => {
     <NavLink className='press' 
     exact activeClassName='active' 
     to='/press'>
-      Press
+      <img className='redmoon' src={kredmoon} alt='redmoon'/>Press
     </NavLink>
   </li>
 
@@ -44,7 +46,7 @@ const Navbar = () => {
     <NavLink className='films' 
     exact activeClassName='active' 
     to='/films'>
-      Films
+      <img className='redmoon' src={kredmoon} alt='redmoon'/>Films
     </NavLink>
   </li>
 
@@ -52,7 +54,7 @@ const Navbar = () => {
     <NavLink className='development' 
     exact activeClassName='active' 
     to='/development'>
-      Development
+      <img className='redmoon' src={kredmoon} alt='redmoon'/>Development
     </NavLink>
   </li>
 
@@ -60,7 +62,7 @@ const Navbar = () => {
     <NavLink className='news' 
     exact activeClassName='active' 
     to='/news'>
-      News
+      <img className='redmoon' src={kredmoon} alt='redmoon'/>News
     </NavLink>
   </li>
 
@@ -68,7 +70,7 @@ const Navbar = () => {
     <NavLink className='more' 
     exact activeClassName='active' 
     to='/more'>
-      More
+      <img className='redmoon' src={kredmoon} alt='redmoon'/>More
     </NavLink>
   </li>
 
@@ -76,7 +78,7 @@ const Navbar = () => {
     <NavLink className='contact' 
     exact activeClassName='active' 
     to='/contact'>
-      Contact
+      <img className='redmoon' src={kredmoon} alt='redmoon'/>Contact
     </NavLink>
   </li>
 
