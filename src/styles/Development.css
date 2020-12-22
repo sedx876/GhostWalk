@@ -1,0 +1,44 @@
+.card-text{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* margin: 75px; */
+  padding: 20px;
+}
+
+.DeadSlate{
+  width:400px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+  margin:10px;
+  justify-content: center;
+}
+
+.FutureImperfect{
+  width:400px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+  margin:10px;
+  justify-content: center;
+}
+
+.TheEndWas{
+  width:400px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+  margin:10px;
+  justify-content: center;
+}
+
+.HarvestBall{
+  width:400px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+  margin:10px;
+  justify-content: center;
+}
