@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Home.css'
 //import '../styles/Enter.css'
 import gothDoor from '../assets/gothDoor.png'
+import ghostwalklogo from '../assets/ghostwalklogo.png'
 
 const Home = () => {
 
@@ -9,6 +10,7 @@ const Home = () => {
     <div className="background-container">
     <div>
     <div class="stars">
+    <div className="img-container"><img className="gwLogo" alt="gothDoor" src={ghostwalklogo}/></div>
 <div className="twinkling"></div>
 <div className="clouds"></div>
 <div className="name">
@@ -25,10 +27,10 @@ const Home = () => {
   </div>
   <br />
   <br />
-  <h2>Welcome</h2>
+  {/* <h2>Welcome</h2>
   <h3>to</h3>
-  <h1>Ghost Walk</h1>
-  {/* <div className="img-container"><img className="gothDoor" alt="gothDoor" src={gothDoor}/></div> */}
+  <h1>Ghost Walk</h1> */}
+  {/* <div className="img-container"><img className="gwLogo" alt="gothDoor" src={ghostwalklogo}/></div> */}
 </div>
 </div>
 </div>
