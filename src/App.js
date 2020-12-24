@@ -12,6 +12,7 @@ import Films from './components/Films'
 import Contact from './components/Contact'
 import More from './components/More'
 import Press from './components/Press'
+import Trailers from './components/Trailers'
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route exact path='/news' component={News}/>
         <Route exact path='/development' component={Development}/>
         <Route exact path='/films' component={Films}/>
+        <Route exact path='/trailers' component={Trailers}/>
       </Switch>
       <Footer /> 
     </div>

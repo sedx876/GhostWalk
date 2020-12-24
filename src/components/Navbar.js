@@ -22,7 +22,8 @@ const Navbar = () => {
     <NavLink className='about' 
     exact activeClassName='active' 
     to='/about'>
-      <img className='redmoon' src={kredmoon} alt='redmoon'/>About
+      {/* <img className='redmoon' src={kredmoon} alt='redmoon'/> */}
+      About
     </NavLink>
   </li>
 
@@ -30,7 +31,8 @@ const Navbar = () => {
     <NavLink className='bts'
     exact activeClassName='active'
     to='/bts'>
-      <img className='redmoon' src={kredmoon} alt='redmoon'/>Behind the Scenes
+      {/* <img className='redmoon' src={kredmoon} alt='redmoon'/> */}
+      Behind the Scenes
     </NavLink>
   </li>
 
@@ -38,7 +40,8 @@ const Navbar = () => {
     <NavLink className='press' 
     exact activeClassName='active' 
     to='/press'>
-      <img className='redmoon' src={kredmoon} alt='redmoon'/>Press
+      {/* <img className='redmoon' src={kredmoon} alt='redmoon'/> */}
+      Press
     </NavLink>
   </li>
 
@@ -46,7 +49,8 @@ const Navbar = () => {
     <NavLink className='films' 
     exact activeClassName='active' 
     to='/films'>
-      <img className='redmoon' src={kredmoon} alt='redmoon'/>Films
+      {/* <img className='redmoon' src={kredmoon} alt='redmoon'/> */}
+      Films
     </NavLink>
   </li>
 
@@ -54,7 +58,17 @@ const Navbar = () => {
     <NavLink className='development' 
     exact activeClassName='active' 
     to='/development'>
-      <img className='redmoon' src={kredmoon} alt='redmoon'/>Development
+      {/* <img className='redmoon' src={kredmoon} alt='redmoon'/> */}
+      Development
+    </NavLink>
+  </li>
+
+  <li>
+    <NavLink className='trailers' 
+    exact activeClassName='active' 
+    to='/trailers'>
+      {/* <img className='redmoon' src={kredmoon} alt='redmoon'/> */}
+      Trailers
     </NavLink>
   </li>
 
@@ -62,7 +76,8 @@ const Navbar = () => {
     <NavLink className='news' 
     exact activeClassName='active' 
     to='/news'>
-      <img className='redmoon' src={kredmoon} alt='redmoon'/>News
+      {/* <img className='redmoon' src={kredmoon} alt='redmoon'/> */}
+      News
     </NavLink>
   </li>
 
@@ -70,7 +85,8 @@ const Navbar = () => {
     <NavLink className='more' 
     exact activeClassName='active' 
     to='/more'>
-      <img className='redmoon' src={kredmoon} alt='redmoon'/>More
+      {/* <img className='redmoon' src={kredmoon} alt='redmoon'/> */}
+      More
     </NavLink>
   </li>
 
@@ -78,7 +94,8 @@ const Navbar = () => {
     <NavLink className='contact' 
     exact activeClassName='active' 
     to='/contact'>
-      <img className='redmoon' src={kredmoon} alt='redmoon'/>Contact
+      {/* <img className='redmoon' src={kredmoon} alt='redmoon'/> */}
+      Contact
     </NavLink>
   </li>
 
