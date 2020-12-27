@@ -27,6 +27,8 @@ const Navbar = () => {
     </NavLink>
   </li>
 
+  |
+
   <li>
     <NavLink className='bts'
     exact activeClassName='active'
@@ -35,6 +37,8 @@ const Navbar = () => {
       Behind the Scenes
     </NavLink>
   </li>
+
+  |
 
   <li>
     <NavLink className='press' 
@@ -45,6 +49,8 @@ const Navbar = () => {
     </NavLink>
   </li>
 
+  |
+
   <li>
     <NavLink className='films' 
     exact activeClassName='active' 
@@ -53,6 +59,8 @@ const Navbar = () => {
       Films
     </NavLink>
   </li>
+
+  |
 
   <li>
     <NavLink className='development' 
@@ -63,6 +71,8 @@ const Navbar = () => {
     </NavLink>
   </li>
 
+  |
+
   <li>
     <NavLink className='trailers' 
     exact activeClassName='active' 
@@ -71,6 +81,8 @@ const Navbar = () => {
       Trailers
     </NavLink>
   </li>
+
+  |
 
   <li>
     <NavLink className='news' 
@@ -81,6 +93,8 @@ const Navbar = () => {
     </NavLink>
   </li>
 
+  |
+
   <li>
     <NavLink className='more' 
     exact activeClassName='active' 
@@ -90,6 +104,8 @@ const Navbar = () => {
     </NavLink>
   </li>
 
+  |
+
   <li>
     <NavLink className='awards' 
     exact activeClassName='active' 
@@ -98,6 +114,8 @@ const Navbar = () => {
       Awards
     </NavLink>
   </li>
+
+  |
 
   <li>
     <NavLink className='contact' 

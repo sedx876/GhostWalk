@@ -87,6 +87,73 @@ Official Selection, and nomination for
 </div>
 </div>
 
+<div class="card border-dark mb-3 a2">
+<div class="card-header">Epp Films</div>
+<div class="card-body">
+{/* <h4 class="card-title">Sicily International Film Festival 2018</h4> */}
+<p class="card-text">
+Cleveland, OH
+<br/> 
+January 1, 2016
+</p>
+</div>
+</div>
+
+<div class="card border-dark mb-3 a2">
+<div class="card-header">International Filmmaker Festival Of World Cinema</div>
+<div class="card-body">
+{/* <h4 class="card-title">Sicily International Film Festival 2018</h4> */}
+<p class="card-text">
+London, UK
+<br/> 
+February 21, 2016
+<br/>
+Official Selection, Nominated for 3 film awards
+</p>
+</div>
+</div>
+
+<div class="card border-dark mb-3 a2">
+<div class="card-header">Venice Film Week 2016</div>
+<div class="card-body">
+{/* <h4 class="card-title">Sicily International Film Festival 2018</h4> */}
+<p class="card-text">
+Venice, Italy
+<br/> 
+September 2, 2016
+<br/>
+Official Selection 
+Best Short Film nomination
+</p>
+</div>
+</div>
+
+<div class="card border-dark mb-3 a2">
+<div class="card-header">Legends of Hollywood Film Festival 2015</div>
+<div class="card-body">
+{/* <h4 class="card-title">Sicily International Film Festival 2018</h4> */}
+<p class="card-text">
+Los Angeles, CA
+<br/> 
+October 20, 2015
+</p>
+</div>
+</div>
+
+<div class="card border-dark mb-3 a2">
+<div class="card-header">FANtastic Horror Film Festival 2015</div>
+<div class="card-body">
+{/* <h4 class="card-title">Sicily International Film Festival 2018</h4> */}
+<p class="card-text">
+San Diego, CA
+<br/> 
+October 30, 2015
+<br/>
+Official Selection; Nominated for "Best SFX" and for "Best Sound Design"
+</p>
+</div>
+</div>
+
 <h2>Screenings</h2>
 
 <div class="card border-dark mb-3 a2">
