@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return(
 
-<div class="navbar">
+<div className="navbar">
   <NavLink className="logo" exact 
     activeClassName='active' 
     to='/'>
@@ -17,7 +17,7 @@ const Navbar = () => {
     Ghost Walk
   </NavLink>
 
-<ul class="nav">
+<ul className="nav">
   <li>
     <NavLink className='about' 
     exact activeClassName='active' 
@@ -87,6 +87,15 @@ const Navbar = () => {
     to='/more'>
       {/* <img className='redmoon' src={kredmoon} alt='redmoon'/> */}
       More
+    </NavLink>
+  </li>
+
+  <li>
+    <NavLink className='awards' 
+    exact activeClassName='active' 
+    to='/awards'>
+      {/* <img className='redmoon' src={kredmoon} alt='redmoon'/> */}
+      Awards
     </NavLink>
   </li>
 

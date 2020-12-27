@@ -38,6 +38,7 @@ body {
   justify-content: right;
   list-style: none;
   margin-right: 5%;
+  margin-bottom: 5px;
 }
 .logo {
   flex: 1 1 auto;

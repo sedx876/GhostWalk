@@ -13,6 +13,7 @@ import Contact from './components/Contact'
 import More from './components/More'
 import Press from './components/Press'
 import Trailers from './components/Trailers'
+import Awards from './components/Awards'
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route exact path='/development' component={Development}/>
         <Route exact path='/films' component={Films}/>
         <Route exact path='/trailers' component={Trailers}/>
+        <Route exact path='/awards' components={Awards}/>
       </Switch>
       <Footer /> 
     </div>
